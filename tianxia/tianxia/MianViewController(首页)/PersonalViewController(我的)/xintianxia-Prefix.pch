@@ -1,0 +1,23 @@
+//
+//  xintianxia-Prefix.pch
+//  行天下_我的
+//
+//  Created by 程勇辉 on 2017/7/4.
+//  Copyright © 2017年 程勇辉. All rights reserved.
+//
+
+#ifndef xintianxia_Prefix_pch
+#define xintianxia_Prefix_pch
+#define Width  [UIScreen mainScreen].bounds.size.width
+#define Height [UIScreen mainScreen].bounds.size.height
+#import "CHTabarRootViewController.h"
+#import "CHHomePageViewController.h"
+#import "CHTourismViewController.h"
+#import "CHCommunityViewController.h"
+#import "CHServiceViewController.h"
+#import "CHPersonalViewController.h"
+#import "AppDelegate.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* xintianxia_Prefix_pch */
